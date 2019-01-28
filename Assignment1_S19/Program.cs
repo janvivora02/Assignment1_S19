@@ -172,7 +172,7 @@ namespace Assignment1_S19
             }
             return sol;
         }
-         // The number is separated into individial digits which can be later multiplied by 2 with the respective power of digit.
+         // The number is separated into individial digits which can be multiplied by 2 with the respective power of digit.
 
 
         public static void printTriangle(int n)
@@ -206,7 +206,7 @@ namespace Assignment1_S19
             }
         }
 
-        // The total number is 
+        // The loop helps to add space and stars to make a complete triangle.
 
 
         public static void computeFrequency(int[] a)
@@ -252,10 +252,17 @@ namespace Assignment1_S19
             catch
             {
                 Console.WriteLine("Exception occured while computing computeFrequency()");
+
+
+
             }
+
+
         }
 
-    }
+    }   
+           // Array has been created first.
+          //Array has been used to count the number and frequency of all the digits and how many times they occur.
 }
 
 
